@@ -1,0 +1,52 @@
+@prefix ae: <http://actrisexample.eu/ns/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix envri: <http://envri.eu/ns/> .
+@prefix ns1: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] ae:Conventions "CF-1.7, ACDD-1.3" ;
+    ae:contributor_role "data submitter" ;
+    ae:creator_name "Chris Lunder" ;
+    ae:creator_type "person" ;
+    ae:date_created "2018-12-05T10:08:00 UTC" ;
+    ae:date_metadata_modified "2018-12-05T10:08:00 UTC" ;
+    ae:featureType "timeSeries" ;
+    ae:geospatial_bounds "POINT Z (-72.016667 2.533333 1309.0)" ;
+    ae:geospatial_bounds_crs "EPSG:4979" ;
+    ae:geospatial_lat_max -7.201667e+01 ;
+    ae:geospatial_lat_min -7.201667e+01 ;
+    ae:geospatial_lon_max 2.533333e+00 ;
+    ae:geospatial_lon_min 2.533333e+00 ;
+    ae:geospatial_vertical_max 1.309e+03 ;
+    ae:geospatial_vertical_min 1.309e+03 ;
+    ae:geospatial_vertical_positive "up" ;
+    ae:id "NO0058G.20070218000000.20181205100800.dmps.particle_number_size_distribution.aerosol.3y.1h.NO01L_DMPS_Troll1.NO01L_dmps_DMPS_Troll1.lev2.nc" ;
+    ae:institution "NO01L, Norwegian Institute for Air Research, NILU, Atmosphere and Climate Department, Instituttveien 18, 2007, Kjeller, Norway" ;
+    ae:keywords "Troll, NO0058G, number_concentration_of_positive_ions_in_dry_aerosol_particles_in_air, aerosol, GAW-WDCA, particle_number_size_distribution, NILU" ;
+    ae:license "GAW-WDCA: , NILU: Public open access. We encourage contacting data originators if substatial use of individual time series is planned (fair use data policy)." ;
+    ae:naming_authority "no.nilu.ebas" ;
+    ae:processing_level "2: final (Physical parameters, aggregated (if needed), info on variability recommended, quality assured by human inspection. This is the typical EBAS data level meant for dissemination and long term preservation.)" ;
+    ae:project "GAW-WDCA, NILU" ;
+    ae:publisher_institution "NILU - Norwegian Institute for Air Research, ATMOS, EBAS" ;
+    ae:publisher_name "NILU - Norwegian Institute for Air Research, ATMOS, EBAS" ;
+    ae:publisher_type "institution" ;
+    ae:publisher_url "http://ebas.nilu.no/" ;
+    ae:source "surface observation" ;
+    ae:time_converage_end "2010-01-01T00:00:00 UTC" ;
+    ae:time_converage_start "2007-02-18T00:00:00 UTC" ;
+    ae:time_coverage_duration "P0002-10-14T00:00:00" ;
+    ae:time_coverage_resolution "P0000-00-00T01:00:00" ;
+    ae:timezone "UTC" ;
+    ae:title "Ground based in situ observations of particle_number_size_distribution at Troll (NO0058G) using dmps" ;
+    ns1:mbox <crl@nilu.no>,
+        <ebas@nilu.no> ;
+    ns1:name "Markus Fiebig" .
+
+[] ae:creator_institution "\"Norwegian Institute for Air Research, Atmosphere and Climate Department, NILU\"" ;
+    ae:measures [ rdfs:label "particle_number_size_distribution" ;
+            ae:belongsto [ rdfs:label "aerosol" ] ] .
+
