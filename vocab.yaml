@@ -1,131 +1,296 @@
-ACTRIS_CF_WIGOS:
-  label: ACTRIS_CF_WIGOS
-  uri:
-  - http://actrisexample.eu/ns/ACTRIS_CF_WIGOS
-  - http://vocab.nerc.ac.uk/collection/P07/current/3TUNI9CM/
-  - http://codes.wmo.int/wmdr/ObservedVariableAtmosphere/316
-  - http://codes.wmo.int/wmdr/ObservedVariableAtmosphere/317
-  - http://codes.wmo.int/wmdr/ObservedVariableAtmosphere/318
+null:
+  label: None
+  uri: http://actrisexample.eu/ns/NULL
+'NULL':
+  label: 'NULL'
+  uri: http://actrisexample.eu/ns/NULL
 Conventions:
   label: Conventions
   uri: http://actrisexample.eu/ns/Conventions
+featureType:
+  label: featureType
+  uri: http://actrisexample.eu/ns/featureType
+title:
+  label: title
+  uri: http://actrisexample.eu/ns/title
+keywords:
+  label: keywords
+  uri: http://actrisexample.eu/ns/keywords
+id:
+  label: id
+  uri: http://actrisexample.eu/ns/id
+naming_authority:
+  label: naming_authority
+  uri: http://actrisexample.eu/ns/naming_authority
+project:
+  label: project
+  uri: http://actrisexample.eu/ns/project
 acknowledgement:
   label: acknowledgement
   uri: http://actrisexample.eu/ns/acknowledgement
-contributor_name:
-  label: contributor_name
-  uri: http://actrisexample.eu/ns/contributor_name
-contributor_role:
-  label: contributor_role
-  uri: http://actrisexample.eu/ns/contributor_role
-creator_email:
-  label: creator_email
-  uri: http://actrisexample.eu/ns/creator_email
-creator_institution:
-  label: creator_institution
-  uri: http://actrisexample.eu/ns/creator_institution
-creator_name:
-  label: creator_name
-  uri: http://actrisexample.eu/ns/creator_name
-creator_type:
-  label: creator_type
-  uri: http://actrisexample.eu/ns/creator_type
+license:
+  label: license
+  uri: http://actrisexample.eu/ns/license
+summary:
+  label: summary
+  uri: http://actrisexample.eu/ns/summary
+source:
+  label: source
+  uri: http://actrisexample.eu/ns/source
+institution:
+  label: institution
+  uri: http://actrisexample.eu/ns/institution
+processing_level:
+  label: processing_level
+  uri: http://actrisexample.eu/ns/processing_level
 date_created:
   label: date_created
   uri: http://actrisexample.eu/ns/date_created
 date_metadata_modified:
   label: date_metadata_modified
   uri: http://actrisexample.eu/ns/date_metadata_modified
-ebas_metadata:
-  label: ebas_metadata
-  uri: http://actrisexample.eu/ns/ebas_metadata
-featureType:
-  label: featureType
-  uri: http://actrisexample.eu/ns/featureType
+creator_name:
+  label: creator_name
+  uri: http://actrisexample.eu/ns/creator_name
+creator_type:
+  label: creator_type
+  uri: http://actrisexample.eu/ns/creator_type
+creator_email:
+  label: creator_email
+  uri: http://actrisexample.eu/ns/creator_email
+creator_institution:
+  label: creator_institution
+  uri: http://actrisexample.eu/ns/creator_institution
+contributor_name:
+  label: contributor_name
+  uri: http://actrisexample.eu/ns/contributor_name
+contributor_role:
+  label: contributor_role
+  uri: http://actrisexample.eu/ns/contributor_role
+publisher_type:
+  label: publisher_type
+  uri: http://actrisexample.eu/ns/publisher_type
+publisher_name:
+  label: publisher_name
+  uri: http://actrisexample.eu/ns/publisher_name
+publisher_institution:
+  label: publisher_institution
+  uri: http://actrisexample.eu/ns/publisher_institution
+publisher_email:
+  label: publisher_email
+  uri: http://actrisexample.eu/ns/publisher_email
+publisher_url:
+  label: publisher_url
+  uri: http://actrisexample.eu/ns/publisher_url
 geospatial_bounds:
   label: geospatial_bounds
   uri: http://actrisexample.eu/ns/geospatial_bounds
 geospatial_bounds_crs:
   label: geospatial_bounds_crs
   uri: http://actrisexample.eu/ns/geospatial_bounds_crs
-geospatial_lat_max:
-  label: geospatial_lat_max
-  uri: http://actrisexample.eu/ns/geospatial_lat_max
 geospatial_lat_min:
   label: geospatial_lat_min
   uri: http://actrisexample.eu/ns/geospatial_lat_min
-geospatial_lon_max:
-  label: geospatial_lon_max
-  uri: http://actrisexample.eu/ns/geospatial_lon_max
+geospatial_lat_max:
+  label: geospatial_lat_max
+  uri: http://actrisexample.eu/ns/geospatial_lat_max
 geospatial_lon_min:
   label: geospatial_lon_min
   uri: http://actrisexample.eu/ns/geospatial_lon_min
-geospatial_vertical_max:
-  label: geospatial_vertical_max
-  uri: http://actrisexample.eu/ns/geospatial_vertical_max
+geospatial_lon_max:
+  label: geospatial_lon_max
+  uri: http://actrisexample.eu/ns/geospatial_lon_max
 geospatial_vertical_min:
   label: geospatial_vertical_min
   uri: http://actrisexample.eu/ns/geospatial_vertical_min
+geospatial_vertical_max:
+  label: geospatial_vertical_max
+  uri: http://actrisexample.eu/ns/geospatial_vertical_max
 geospatial_vertical_positive:
   label: geospatial_vertical_positive
   uri: http://actrisexample.eu/ns/geospatial_vertical_positive
-id:
-  label: id
-  uri: http://actrisexample.eu/ns/id
-institution:
-  label: institution
-  uri: http://actrisexample.eu/ns/institution
-keywords:
-  label: keywords
-  uri: http://actrisexample.eu/ns/keywords
-license:
-  label: license
-  uri: http://actrisexample.eu/ns/license
-naming_authority:
-  label: naming_authority
-  uri: http://actrisexample.eu/ns/naming_authority
-processing_level:
-  label: processing_level
-  uri: http://actrisexample.eu/ns/processing_level
-project:
-  label: project
-  uri: http://actrisexample.eu/ns/project
-publisher_email:
-  label: publisher_email
-  uri: http://actrisexample.eu/ns/publisher_email
-publisher_institution:
-  label: publisher_institution
-  uri: http://actrisexample.eu/ns/publisher_institution
-publisher_name:
-  label: publisher_name
-  uri: http://actrisexample.eu/ns/publisher_name
-publisher_type:
-  label: publisher_type
-  uri: http://actrisexample.eu/ns/publisher_type
-publisher_url:
-  label: publisher_url
-  uri: http://actrisexample.eu/ns/publisher_url
-source:
-  label: source
-  uri: http://actrisexample.eu/ns/source
-summary:
-  label: summary
-  uri: http://actrisexample.eu/ns/summary
-time_coverage_duration:
-  label: time_coverage_duration
-  uri: http://actrisexample.eu/ns/time_coverage_duration
-time_coverage_end:
-  label: time_coverage_end
-  uri: http://actrisexample.eu/ns/time_coverage_end
-time_coverage_resolution:
-  label: time_coverage_resolution
-  uri: http://actrisexample.eu/ns/time_coverage_resolution
 time_coverage_start:
   label: time_coverage_start
   uri: http://actrisexample.eu/ns/time_coverage_start
+time_coverage_end:
+  label: time_coverage_end
+  uri: http://actrisexample.eu/ns/time_coverage_end
+time_coverage_duration:
+  label: time_coverage_duration
+  uri: http://actrisexample.eu/ns/time_coverage_duration
+time_coverage_resolution:
+  label: time_coverage_resolution
+  uri: http://actrisexample.eu/ns/time_coverage_resolution
 timezone:
   label: timezone
   uri: http://actrisexample.eu/ns/timezone
-title:
-  label: title
-  uri: http://actrisexample.eu/ns/title
+Data definition:
+  label: Data_definition
+  uri: http://actrisexample.eu/ns/Data_definition
+Set type code:
+  label: Set_type_code
+  uri: http://actrisexample.eu/ns/Set_type_code
+Timezone:
+  label: Timezone
+  uri: http://actrisexample.eu/ns/Timezone
+File name:
+  label: File_name
+  uri: http://actrisexample.eu/ns/File_name
+File creation:
+  label: File_creation
+  uri: http://actrisexample.eu/ns/File_creation
+Startdate:
+  label: Startdate
+  uri: http://actrisexample.eu/ns/Startdate
+Revision date:
+  label: Revision_date
+  uri: http://actrisexample.eu/ns/Revision_date
+Version:
+  label: Version
+  uri: http://actrisexample.eu/ns/Version
+Data level:
+  label: Data_level
+  uri: http://actrisexample.eu/ns/Data_level
+Period code:
+  label: Period_code
+  uri: http://actrisexample.eu/ns/Period_code
+Resolution code:
+  label: Resolution_code
+  uri: http://actrisexample.eu/ns/Resolution_code
+Sample duration:
+  label: Sample_duration
+  uri: http://actrisexample.eu/ns/Sample_duration
+Orig. time res.:
+  label: Orig._time_res.
+  uri: http://actrisexample.eu/ns/Orig._time_res.
+Station code:
+  label: Station_code
+  uri: http://actrisexample.eu/ns/Station_code
+Platform code:
+  label: Platform_code
+  uri: http://actrisexample.eu/ns/Platform_code
+Station name:
+  label: Station_name
+  uri: http://actrisexample.eu/ns/Station_name
+Station WDCA-ID:
+  label: Station_WDCA-ID
+  uri: http://actrisexample.eu/ns/Station_WDCA-ID
+Station GAW-ID:
+  label: Station_GAW-ID
+  uri: http://actrisexample.eu/ns/Station_GAW-ID
+Station GAW-Name:
+  label: Station_GAW-Name
+  uri: http://actrisexample.eu/ns/Station_GAW-Name
+Station land use:
+  label: Station_land_use
+  uri: http://actrisexample.eu/ns/Station_land_use
+Station setting:
+  label: Station_setting
+  uri: http://actrisexample.eu/ns/Station_setting
+Station GAW type:
+  label: Station_GAW_type
+  uri: http://actrisexample.eu/ns/Station_GAW_type
+Station WMO region:
+  label: Station_WMO_region
+  uri: http://actrisexample.eu/ns/Station_WMO_region
+Station latitude:
+  label: Station_latitude
+  uri: http://actrisexample.eu/ns/Station_latitude
+Station longitude:
+  label: Station_longitude
+  uri: http://actrisexample.eu/ns/Station_longitude
+Station altitude:
+  label: Station_altitude
+  uri: http://actrisexample.eu/ns/Station_altitude
+Regime:
+  label: Regime
+  uri: http://actrisexample.eu/ns/Regime
+Component:
+  label: Component
+  uri:
+  - http://actrisexample.eu/ns/Component
+  - http://vocab.nerc.ac.uk/collection/P07/current/3TUNI9CM/
+  - http://codes.wmo.int/wmdr/ObservedVariableAtmosphere/316
+  - http://codes.wmo.int/wmdr/ObservedVariableAtmosphere/317
+  - http://codes.wmo.int/wmdr/ObservedVariableAtmosphere/318
+Unit:
+  label: Unit
+  uri: http://actrisexample.eu/ns/Unit
+Matrix:
+  label: Matrix
+  uri: http://actrisexample.eu/ns/Matrix
+Laboratory code:
+  label: Laboratory_code
+  uri: http://actrisexample.eu/ns/Laboratory_code
+Instrument type:
+  label: Instrument_type
+  uri: http://actrisexample.eu/ns/Instrument_type
+Instrument name:
+  label: Instrument_name
+  uri: http://actrisexample.eu/ns/Instrument_name
+Instrument manufacturer:
+  label: Instrument_manufacturer
+  uri: http://actrisexample.eu/ns/Instrument_manufacturer
+Instrument model:
+  label: Instrument_model
+  uri: http://actrisexample.eu/ns/Instrument_model
+Instrument serial number:
+  label: Instrument_serial_number
+  uri: http://actrisexample.eu/ns/Instrument_serial_number
+Method ref:
+  label: Method_ref
+  uri: http://actrisexample.eu/ns/Method_ref
+Standard method:
+  label: Standard_method
+  uri: http://actrisexample.eu/ns/Standard_method
+Inlet type:
+  label: Inlet_type
+  uri: http://actrisexample.eu/ns/Inlet_type
+Humidity/temperature control:
+  label: Humidity/temperature_control
+  uri: http://actrisexample.eu/ns/Humidity/temperature_control
+Volume std. temperature:
+  label: Volume_std._temperature
+  uri: http://actrisexample.eu/ns/Volume_std._temperature
+Volume std. pressure:
+  label: Volume_std._pressure
+  uri: http://actrisexample.eu/ns/Volume_std._pressure
+Detection limit:
+  label: Detection_limit
+  uri: http://actrisexample.eu/ns/Detection_limit
+Detection limit expl.:
+  label: Detection_limit_expl.
+  uri: http://actrisexample.eu/ns/Detection_limit_expl.
+Measurement uncertainty:
+  label: Measurement_uncertainty
+  uri: http://actrisexample.eu/ns/Measurement_uncertainty
+Measurement uncertainty expl.:
+  label: Measurement_uncertainty_expl.
+  uri: http://actrisexample.eu/ns/Measurement_uncertainty_expl.
+Zero/negative values code:
+  label: Zero/negative_values_code
+  uri: http://actrisexample.eu/ns/Zero/negative_values_code
+Zero/negative values:
+  label: Zero/negative_values
+  uri: http://actrisexample.eu/ns/Zero/negative_values
+Organization:
+  label: Organization
+  uri: http://actrisexample.eu/ns/Organization
+Frameworks:
+  label: Frameworks
+  uri: http://actrisexample.eu/ns/Frameworks
+Originator:
+  label: Originator
+  uri: http://actrisexample.eu/ns/Originator
+Submitter:
+  label: Submitter
+  uri: http://actrisexample.eu/ns/Submitter
+Acknowledgement:
+  label: Acknowledgement
+  uri: http://actrisexample.eu/ns/Acknowledgement
+Comment:
+  label: Comment
+  uri: http://actrisexample.eu/ns/Comment
+hasvalue:
+  label: hasvalue
+  uri: http://actrisexample.eu/ns/hasvalue
