@@ -247,6 +247,8 @@
     ae:license rdfs:label "license" ;
         ae:hasvalue "NOAA-ESRL:_,_GAW-WDCA:_" .
 
+    ae:measures rdfs:label "measures" .
+
     ae:naming_authority rdfs:label "naming_authority" ;
         ae:hasvalue "no.nilu.ebas" .
 
@@ -306,5 +308,8 @@
 
     <http://vocab.nerc.ac.uk/collection/P07/current/3TUNI9CM/> rdfs:label "Component" ;
         ae:hasvalue "aerosol_absorption_coefficient" .
+
+    [] rdfs:label "filter_absorption_photometer" ;
+        ae:measures [ rdfs:label "aerosol_absorption_coefficient" ] .
 }
 

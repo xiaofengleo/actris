@@ -125,82 +125,82 @@ timezone:
   label: timezone
   uri: http://actrisexample.eu/ns/timezone
 Data definition:
-  label: Data_definition
+  label: Data definition
   uri: http://actrisexample.eu/ns/Data_definition
 Set type code:
-  label: Set_type_code
+  label: Set type code
   uri: http://actrisexample.eu/ns/Set_type_code
 Timezone:
   label: Timezone
   uri: http://actrisexample.eu/ns/Timezone
 File name:
-  label: File_name
+  label: File name
   uri: http://actrisexample.eu/ns/File_name
 File creation:
-  label: File_creation
+  label: File creation
   uri: http://actrisexample.eu/ns/File_creation
 Startdate:
   label: Startdate
   uri: http://actrisexample.eu/ns/Startdate
 Revision date:
-  label: Revision_date
+  label: Revision date
   uri: http://actrisexample.eu/ns/Revision_date
 Version:
   label: Version
   uri: http://actrisexample.eu/ns/Version
 Data level:
-  label: Data_level
+  label: Data level
   uri: http://actrisexample.eu/ns/Data_level
 Period code:
-  label: Period_code
+  label: Period code
   uri: http://actrisexample.eu/ns/Period_code
 Resolution code:
-  label: Resolution_code
+  label: Resolution code
   uri: http://actrisexample.eu/ns/Resolution_code
 Sample duration:
-  label: Sample_duration
+  label: Sample duration
   uri: http://actrisexample.eu/ns/Sample_duration
 Orig. time res.:
-  label: Orig._time_res.
+  label: Orig. time res.
   uri: http://actrisexample.eu/ns/Orig._time_res.
 Station code:
-  label: Station_code
+  label: Station code
   uri: http://actrisexample.eu/ns/Station_code
 Platform code:
-  label: Platform_code
+  label: Platform code
   uri: http://actrisexample.eu/ns/Platform_code
 Station name:
-  label: Station_name
+  label: Station name
   uri: http://actrisexample.eu/ns/Station_name
 Station WDCA-ID:
-  label: Station_WDCA-ID
+  label: Station WDCA-ID
   uri: http://actrisexample.eu/ns/Station_WDCA-ID
 Station GAW-ID:
-  label: Station_GAW-ID
+  label: Station GAW-ID
   uri: http://actrisexample.eu/ns/Station_GAW-ID
 Station GAW-Name:
-  label: Station_GAW-Name
+  label: Station GAW-Name
   uri: http://actrisexample.eu/ns/Station_GAW-Name
 Station land use:
-  label: Station_land_use
+  label: Station land use
   uri: http://actrisexample.eu/ns/Station_land_use
 Station setting:
-  label: Station_setting
+  label: Station setting
   uri: http://actrisexample.eu/ns/Station_setting
 Station GAW type:
-  label: Station_GAW_type
+  label: Station GAW type
   uri: http://actrisexample.eu/ns/Station_GAW_type
 Station WMO region:
-  label: Station_WMO_region
+  label: Station WMO region
   uri: http://actrisexample.eu/ns/Station_WMO_region
 Station latitude:
-  label: Station_latitude
+  label: Station latitude
   uri: http://actrisexample.eu/ns/Station_latitude
 Station longitude:
-  label: Station_longitude
+  label: Station longitude
   uri: http://actrisexample.eu/ns/Station_longitude
 Station altitude:
-  label: Station_altitude
+  label: Station altitude
   uri: http://actrisexample.eu/ns/Station_altitude
 Regime:
   label: Regime
@@ -220,58 +220,58 @@ Matrix:
   label: Matrix
   uri: http://actrisexample.eu/ns/Matrix
 Laboratory code:
-  label: Laboratory_code
+  label: Laboratory code
   uri: http://actrisexample.eu/ns/Laboratory_code
 Instrument type:
-  label: Instrument_type
+  label: Instrument type
   uri: http://actrisexample.eu/ns/Instrument_type
 Instrument name:
-  label: Instrument_name
+  label: Instrument name
   uri: http://actrisexample.eu/ns/Instrument_name
 Instrument manufacturer:
-  label: Instrument_manufacturer
+  label: Instrument manufacturer
   uri: http://actrisexample.eu/ns/Instrument_manufacturer
 Instrument model:
-  label: Instrument_model
+  label: Instrument model
   uri: http://actrisexample.eu/ns/Instrument_model
 Instrument serial number:
-  label: Instrument_serial_number
+  label: Instrument serial number
   uri: http://actrisexample.eu/ns/Instrument_serial_number
 Method ref:
-  label: Method_ref
+  label: Method ref
   uri: http://actrisexample.eu/ns/Method_ref
 Standard method:
-  label: Standard_method
+  label: Standard method
   uri: http://actrisexample.eu/ns/Standard_method
 Inlet type:
-  label: Inlet_type
+  label: Inlet type
   uri: http://actrisexample.eu/ns/Inlet_type
 Humidity/temperature control:
-  label: Humidity/temperature_control
+  label: Humidity/temperature control
   uri: http://actrisexample.eu/ns/Humidity/temperature_control
 Volume std. temperature:
-  label: Volume_std._temperature
+  label: Volume std. temperature
   uri: http://actrisexample.eu/ns/Volume_std._temperature
 Volume std. pressure:
-  label: Volume_std._pressure
+  label: Volume std. pressure
   uri: http://actrisexample.eu/ns/Volume_std._pressure
 Detection limit:
-  label: Detection_limit
+  label: Detection limit
   uri: http://actrisexample.eu/ns/Detection_limit
 Detection limit expl.:
-  label: Detection_limit_expl.
+  label: Detection limit expl.
   uri: http://actrisexample.eu/ns/Detection_limit_expl.
 Measurement uncertainty:
-  label: Measurement_uncertainty
+  label: Measurement uncertainty
   uri: http://actrisexample.eu/ns/Measurement_uncertainty
 Measurement uncertainty expl.:
-  label: Measurement_uncertainty_expl.
+  label: Measurement uncertainty expl.
   uri: http://actrisexample.eu/ns/Measurement_uncertainty_expl.
 Zero/negative values code:
-  label: Zero/negative_values_code
+  label: Zero/negative values code
   uri: http://actrisexample.eu/ns/Zero/negative_values_code
 Zero/negative values:
-  label: Zero/negative_values
+  label: Zero/negative values
   uri: http://actrisexample.eu/ns/Zero/negative_values
 Organization:
   label: Organization
@@ -294,3 +294,6 @@ Comment:
 hasvalue:
   label: hasvalue
   uri: http://actrisexample.eu/ns/hasvalue
+measures:
+  label: measures
+  uri: http://actrisexample.eu/ns/measures
