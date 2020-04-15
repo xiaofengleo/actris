@@ -60,6 +60,13 @@ Note above that the WIGOS vocabulary separates the variable name by matrix defin
 
 So for example a search on "aerosol absorption coefficient" will also give datasets that are listed only as "volume_absorption_coefficient_in_air_due_to_dried_aerosol_particles" as well as "Light absorption coefficient, pm1",  "Light absorption coefficient, pm10",  "Light absorption coefficient, total aerosol".
 
+### Visualization of the Sparql query
+
+The figure below visualizes the results from [queries.ipynb](https://github.com/xiaofengleo/actris/blob/master/queries.ipynb), showing the relation of the "aerosol absorption coefficient" with other terms.
+
+![Visualization of sparql query](https://folk.nilu.no/~richard/envri-fair/query-results.png)
+*Figure 2: Visualization of the sparql query showing the relation of the "aerosol absorption coefficient" with other terms*
+
 #### Suggested improvements
 ![Improvements](https://folk.nilu.no/~richard/envri-fair/improvements.png)
-*Figure 2: Suggested improvements for the demonstrator*
+*Figure 3: Suggested improvements for the demonstrator*
