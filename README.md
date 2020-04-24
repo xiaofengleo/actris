@@ -59,11 +59,32 @@ Note above that the WIGOS vocabulary separates the variable name by matrix defin
 > As a result we have the ACTRIS Use Case where "Filter absorption photometer" <-- Measures--> aerosol absorption coefficient <--PartOf--> aerosol optical properties
 
 So for example a search on "aerosol absorption coefficient" will also give datasets that are listed only as "volume_absorption_coefficient_in_air_due_to_dried_aerosol_particles" as well as "Light absorption coefficient, pm1",  "Light absorption coefficient, pm10",  "Light absorption coefficient, total aerosol".
+### Workflow
+The workflow for executing the pipeline is described referring to the components shown in the Figure 1 above.
+1. Input: DK0025G.20030101000000.20170713083448.filter_absorption_photometer.aerosol_absorption_coefficient.aerosol.12y.1h.US08L_Magee_AE16_SUM.US08L_aethalometer.lev2.nc
+
+2. Tools to extract info:
+Run the [Attrs2Vocab.ipynb](https://github.com/xiaofengleo/actris/blob/master/Attrs2Vocab.ipynb) to generate [vocab.yaml](https://github.com/xiaofengleo/actris/blob/master/vocab.yaml).
+The [vocab.yaml](https://github.com/xiaofengleo/actris/blob/master/vocab.yaml) file contains:
+*  1): the terms used by the head of the .nc file, 
+*  2): the mapping between the variable name, "aerosol absorption coefficient" and the CF standard name “volume_absorption_coefficient_in_air_due_to_dried_aerosol_particles” in the NERC vocabulary, and further link this with "Light absorption coefficient” in the WIGOS vocabulary are encoded in the output file vocab.yaml.
+ These vocabularies are described in the step 3.
+
+3. The mapping described in previous step 2.1.b is build with the help of following two files:
+* 1): [qry_mapping_variables_ebas_wmdr.csv](https://github.com/xiaofengleo/actris/blob/master/qry_mapping_variables_ebas_wmdr.csv) is an extract from the the WIGOS database (World Meteorological Organization vocabulary). See line 113-115 in the file.
+* 2): [ebas_cfname_mapping.txt](https://github.com/xiaofengleo/actris/blob/master/ebas_cfname_mapping.txt) is the ACTRIS In Situ database. See line 186 in the file.
+
+4. Run the [ActrisExample.ipynb](https://github.com/xiaofengleo/actris/blob/master/ActrisExample.ipynb) to generate outputs/data.ttl, outputs/data.trig
+
+5. The data.trig or data.ttl file is hosted in a Jena Fuseki server. 
+
+6. Run the [queries.ipynb](https://github.com/xiaofengleo/actris/blob/master/queries.ipynb), you can see the results demonstrating the linking between "aerosol absorption coefficient" and  “volume_absorption_coefficient_in_air_due_to_dried_aerosol_particles” , and "Light absorption coefficient”.
+
+7. A user interface, which is still under construction.
+
 
 ### Visualization of the Sparql query
-
-The figure below visualizes the results from [queries.ipynb](https://github.com/xiaofengleo/actris/blob/master/queries.ipynb), showing the relation of the "aerosol absorption coefficient" with other terms.
-
+Besides the results demonstrated in [queries.ipynb](https://github.com/xiaofengleo/actris/blob/master/queries.ipynb), we also provide a visualization graph for users to easy see the link of the "aerosol absorption coefficient" with other terms.
 ![Visualization of sparql query](https://folk.nilu.no/~richard/envri-fair/query-results.png)
 *Figure 2: Visualization of the sparql query showing the relation of the "aerosol absorption coefficient" with other terms*
 
