@@ -66,8 +66,8 @@ The workflow for executing the pipeline is described referring to the components
 2. Tools to extract info:
 Run the [Attrs2Vocab.ipynb](https://github.com/xiaofengleo/actris/blob/master/Attrs2Vocab.ipynb) to generate [vocab.yaml](https://github.com/xiaofengleo/actris/blob/master/vocab.yaml).
 The [vocab.yaml](https://github.com/xiaofengleo/actris/blob/master/vocab.yaml) file contains:
-*  a): the terms used by the head of the .nc file, 
-*  b): the mapping between the variable name, "aerosol absorption coefficient" and the CF standard name “volume_absorption_coefficient_in_air_due_to_dried_aerosol_particles” in the NERC vocabulary, and further link this with "Light absorption coefficient” in the WIGOS vocabulary are encoded in the output file vocab.yaml.
+*  1): the terms used by the head of the .nc file, 
+*  2): the mapping between the variable name, "aerosol absorption coefficient" and the CF standard name “volume_absorption_coefficient_in_air_due_to_dried_aerosol_particles” in the NERC vocabulary, and further link this with "Light absorption coefficient” in the WIGOS vocabulary are encoded in the output file vocab.yaml.
  These vocabularies are described in the step 3.
 
 3. The mapping described in previous step 2.1.b is build with the help of following two files:
