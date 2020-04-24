@@ -1,0 +1,315 @@
+@prefix ae: <http://actrisexample.eu/ns/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix envri: <http://envri.eu/ns/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+{
+    ae:Acknowledgement rdfs:label "Acknowledgement" ;
+        ae:hasvalue "Request_acknowledgement_details_from_data_originator" .
+
+    ae:Comment rdfs:label "Comment" ;
+        ae:hasvalue "calibration_factor_/_mean_ratio=1.0;_sample_spot_area=5e-5_m2;_Sigma=16.0._Raw_EBC_data_as_reported_by_instrument,_which_is_a_factor_of_2.0_higher_than_the_value_calculated_from_the_reported_intensities._EBC_should_be_calculated_from_intensities." .
+
+    ae:Component rdfs:label "Component" ;
+        ae:hasvalue "aerosol_absorption_coefficient" .
+
+    ae:Conventions rdfs:label "Conventions" ;
+        ae:hasvalue "CF-1.7,_ACDD-1.3" .
+
+    ae:Data_definition rdfs:label "Data_definition" ;
+        ae:hasvalue "EBAS_1.1" .
+
+    ae:Data_level rdfs:label "Data_level" ;
+        ae:hasvalue "2" .
+
+    ae:Detection_limit rdfs:label "Detection_limit" ;
+        ae:hasvalue "0.047429_1/Mm" .
+
+    <http://actrisexample.eu/ns/Detection_limit_expl.> rdfs:label "Detection_limit_expl." ;
+        ae:hasvalue "Determined_by_instrument_noise_characteristics,_no_detection_limit_flag_used" .
+
+    ae:File_creation rdfs:label "File_creation" ;
+        ae:hasvalue "20190513125103" .
+
+    ae:File_name rdfs:label "File_name" ;
+        ae:hasvalue "DK0025G.20030101000000.20170713083448.filter_absorption_photometer.aerosol_absorption_coefficient.aerosol.12y.1h.US08L_Magee_AE16_SUM.US08L_aethalometer.lev2.nc" .
+
+    ae:Frameworks rdfs:label "Frameworks" ;
+        ae:hasvalue "GAW-WDCA_NOAA-ESRL" .
+
+    <http://actrisexample.eu/ns/Humidity/temperature_control> rdfs:label "Humidity/temperature_control" ;
+        ae:hasvalue "None" .
+
+    ae:Inlet_type rdfs:label "Inlet_type" ;
+        ae:hasvalue "Downward-facing_tube" .
+
+    ae:Instrument_manufacturer rdfs:label "Instrument_manufacturer" ;
+        ae:hasvalue "Magee" .
+
+    ae:Instrument_model rdfs:label "Instrument_model" ;
+        ae:hasvalue "AE16" .
+
+    ae:Instrument_name rdfs:label "Instrument_name" ;
+        ae:hasvalue "Magee_AE16_SUM" .
+
+    ae:Instrument_serial_number rdfs:label "Instrument_serial_number" ;
+        ae:hasvalue "175" .
+
+    ae:Instrument_type rdfs:label "Instrument_type" ;
+        ae:hasvalue "filter_absorption_photometer" .
+
+    ae:Laboratory_code rdfs:label "Laboratory_code" ;
+        ae:hasvalue "US08L" .
+
+    ae:Matrix rdfs:label "Matrix" ;
+        ae:hasvalue "aerosol" .
+
+    ae:Measurement_uncertainty rdfs:label "Measurement_uncertainty" ;
+        ae:hasvalue "25.0_%" .
+
+    <http://actrisexample.eu/ns/Measurement_uncertainty_expl.> rdfs:label "Measurement_uncertainty_expl." ;
+        ae:hasvalue "Intercomparisons_with_thermo-optical_analysis_have_shown_an_uncertainty_of_a_faktor_2_regardless_specific_absorption_cross-section_assumed." .
+
+    ae:Method_ref rdfs:label "Method_ref" ;
+        ae:hasvalue "US08L_aethalometer" .
+
+    ae:NULL rdfs:label "NULL",
+            "None" .
+
+    ae:Organization rdfs:label "Organization" ;
+        ae:hasvalue "US08L,_\"National_Science_Foundation,_NSF/OPP,_Office_of_Polar_Programs\",_NSF/OPP,_,_\"4201_Wilson_Boulevard,_,_22230,_Arlington_VA,_USA\",_,_,_,_" .
+
+    <http://actrisexample.eu/ns/Orig._time_res.> rdfs:label "Orig._time_res." ;
+        ae:hasvalue "1mn" .
+
+    ae:Originator rdfs:label "Originator" ;
+        ae:hasvalue "Ogren,_John,_John.A.Ogren@noaa.gov,_National_Oceanic_and_Atmospheric_Administration/Earth_System_Research_Laboratory/Global_Monitoring_Division,_NOAA/ESRL/GMD,_,_325_Broadway,_,_80305,_\"Boulder,_CO\",_USA" .
+
+    ae:Period_code rdfs:label "Period_code" ;
+        ae:hasvalue "12y" .
+
+    ae:Platform_code rdfs:label "Platform_code" ;
+        ae:hasvalue "DK0025S" .
+
+    ae:Regime rdfs:label "Regime" ;
+        ae:hasvalue "IMG" .
+
+    ae:Resolution_code rdfs:label "Resolution_code" ;
+        ae:hasvalue "1h" .
+
+    ae:Revision_date rdfs:label "Revision_date" ;
+        ae:hasvalue "20170713083448" .
+
+    ae:Sample_duration rdfs:label "Sample_duration" ;
+        ae:hasvalue "1h" .
+
+    ae:Set_type_code rdfs:label "Set_type_code" ;
+        ae:hasvalue "TU" .
+
+    ae:Standard_method rdfs:label "Standard_method" ;
+        ae:hasvalue "SOP=GAW227" .
+
+    ae:Startdate rdfs:label "Startdate" ;
+        ae:hasvalue "20030101000000" .
+
+    ae:Station_GAW-ID rdfs:label "Station_GAW-ID" ;
+        ae:hasvalue "SUM" .
+
+    ae:Station_GAW-Name rdfs:label "Station_GAW-Name" ;
+        ae:hasvalue "Summit" .
+
+    ae:Station_GAW_type rdfs:label "Station_GAW_type" ;
+        ae:hasvalue "G" .
+
+    ae:Station_WDCA-ID rdfs:label "Station_WDCA-ID" ;
+        ae:hasvalue "GAWADK__SUM" .
+
+    ae:Station_WMO_region rdfs:label "Station_WMO_region" ;
+        ae:hasvalue "6" .
+
+    ae:Station_altitude rdfs:label "Station_altitude" ;
+        ae:hasvalue "3238.0_m" .
+
+    ae:Station_code rdfs:label "Station_code" ;
+        ae:hasvalue "DK0025G" .
+
+    ae:Station_land_use rdfs:label "Station_land_use" ;
+        ae:hasvalue "Snowfield" .
+
+    ae:Station_latitude rdfs:label "Station_latitude" ;
+        ae:hasvalue "72.5800018311" .
+
+    ae:Station_longitude rdfs:label "Station_longitude" ;
+        ae:hasvalue "-38.4799995422" .
+
+    ae:Station_name rdfs:label "Station_name" ;
+        ae:hasvalue "Summit" .
+
+    ae:Station_setting rdfs:label "Station_setting" ;
+        ae:hasvalue "Polar" .
+
+    ae:Submitter rdfs:label "Submitter" ;
+        ae:hasvalue "Bergin,_Mike,_,_,_,_,_,_,_,_,_" .
+
+    ae:Timezone rdfs:label "Timezone" ;
+        ae:hasvalue "UTC" .
+
+    ae:Unit rdfs:label "Unit" ;
+        ae:hasvalue "1/Mm" .
+
+    ae:Version rdfs:label "Version" ;
+        ae:hasvalue "1" .
+
+    ae:Volume_std._pressure rdfs:label "Volume_std._pressure" ;
+        ae:hasvalue "1013.25_hPa" .
+
+    ae:Volume_std._temperature rdfs:label "Volume_std._temperature" ;
+        ae:hasvalue "273.15_K" .
+
+    <http://actrisexample.eu/ns/Zero/negative_values> rdfs:label "Zero/negative_values" ;
+        ae:hasvalue "Zero_and_neg._values_may_appear_due_to_statistical_variations_at_very_low_concentrations" .
+
+    <http://actrisexample.eu/ns/Zero/negative_values_code> rdfs:label "Zero/negative_values_code" ;
+        ae:hasvalue "Zero/negative_possible" .
+
+    ae:acknowledgement rdfs:label "acknowledgement" ;
+        ae:hasvalue "Request_acknowledgement_details_from_data_originator" .
+
+    ae:contributor_name rdfs:label "contributor_name" ;
+        ae:hasvalue "Mike_Bergin" .
+
+    ae:contributor_role rdfs:label "contributor_role" ;
+        ae:hasvalue "data_submitter" .
+
+    ae:creator_email rdfs:label "creator_email" ;
+        ae:hasvalue ",_John.A.Ogren@noaa.gov" .
+
+    ae:creator_institution rdfs:label "creator_institution" ;
+        ae:hasvalue ",_\"National_Oceanic_and_Atmospheric_Administration/Earth_System_Research_Laboratory/Global_Monitoring_Division,_NOAA/ESRL/GMD\"" .
+
+    ae:creator_name rdfs:label "creator_name" ;
+        ae:hasvalue "Mike_Bergin,_John_Ogren" .
+
+    ae:creator_type rdfs:label "creator_type" ;
+        ae:hasvalue "person" .
+
+    ae:date_created rdfs:label "date_created" ;
+        ae:hasvalue "2017-07-13T08:34:48_UTC" .
+
+    ae:date_metadata_modified rdfs:label "date_metadata_modified" ;
+        ae:hasvalue "2017-07-13T08:34:48_UTC" .
+
+    ae:featureType rdfs:label "featureType" ;
+        ae:hasvalue "timeSeries" .
+
+    ae:geospatial_bounds rdfs:label "geospatial_bounds" ;
+        ae:hasvalue "POINT_Z_(72.5800018311_-38.4799995422_3238.0)" .
+
+    ae:geospatial_bounds_crs rdfs:label "geospatial_bounds_crs" ;
+        ae:hasvalue "EPSG:4979" .
+
+    ae:geospatial_lat_max rdfs:label "geospatial_lat_max" ;
+        ae:hasvalue "72.5800018311" .
+
+    ae:geospatial_lat_min rdfs:label "geospatial_lat_min" ;
+        ae:hasvalue "72.5800018311" .
+
+    ae:geospatial_lon_max rdfs:label "geospatial_lon_max" ;
+        ae:hasvalue "-38.4799995422" .
+
+    ae:geospatial_lon_min rdfs:label "geospatial_lon_min" ;
+        ae:hasvalue "-38.4799995422" .
+
+    ae:geospatial_vertical_max rdfs:label "geospatial_vertical_max" ;
+        ae:hasvalue "3238.0" .
+
+    ae:geospatial_vertical_min rdfs:label "geospatial_vertical_min" ;
+        ae:hasvalue "3238.0" .
+
+    ae:geospatial_vertical_positive rdfs:label "geospatial_vertical_positive" ;
+        ae:hasvalue "up" .
+
+    ae:hasvalue rdfs:label "hasvalue" .
+
+    ae:id rdfs:label "id" ;
+        ae:hasvalue "DK0025G.20030101000000.20170713083448.filter_absorption_photometer.aerosol_absorption_coefficient.aerosol.12y.1h.US08L_Magee_AE16_SUM.US08L_aethalometer.lev2.nc" .
+
+    ae:institution rdfs:label "institution" ;
+        ae:hasvalue "US08L,_National_Science_Foundation,_NSF/OPP,_Office_of_Polar_Programs,_NSF/OPP,_4201_Wilson_Boulevard,_,_22230,_Arlington_VA,_USA" .
+
+    ae:keywords rdfs:label "keywords" ;
+        ae:hasvalue "NOAA-ESRL,_DK0025G,_aerosol_absorption_coefficient,_Summit,_aerosol,_GAW-WDCA,_volume_absorption_coefficient_in_air_due_to_dried_aerosol_particles" .
+
+    ae:license rdfs:label "license" ;
+        ae:hasvalue "NOAA-ESRL:_,_GAW-WDCA:_" .
+
+    ae:measures rdfs:label "measures" .
+
+    ae:naming_authority rdfs:label "naming_authority" ;
+        ae:hasvalue "no.nilu.ebas" .
+
+    ae:processing_level rdfs:label "processing_level" ;
+        ae:hasvalue "2:_final_(Physical_parameters,_aggregated_(if_needed),_info_on_variability_recommended,_quality_assured_by_human_inspection._This_is_the_typical_EBAS_data_level_meant_for_dissemination_and_long_term_preservation.)" .
+
+    ae:project rdfs:label "project" ;
+        ae:hasvalue "NOAA-ESRL,_GAW-WDCA" .
+
+    ae:publisher_email rdfs:label "publisher_email" ;
+        ae:hasvalue "ebas@nilu.no" .
+
+    ae:publisher_institution rdfs:label "publisher_institution" ;
+        ae:hasvalue "NILU_-_Norwegian_Institute_for_Air_Research,_ATMOS,_EBAS" .
+
+    ae:publisher_name rdfs:label "publisher_name" ;
+        ae:hasvalue "NILU_-_Norwegian_Institute_for_Air_Research,_ATMOS,_EBAS" .
+
+    ae:publisher_type rdfs:label "publisher_type" ;
+        ae:hasvalue "institution" .
+
+    ae:publisher_url rdfs:label "publisher_url" ;
+        ae:hasvalue "http://ebas.nilu.no/" .
+
+    ae:source rdfs:label "source" ;
+        ae:hasvalue "surface_observation" .
+
+    ae:summary rdfs:label "summary" ;
+        ae:hasvalue "Ground_based_in_situ_observations_of_aerosol_absorption_coefficient_at_Summit_(DK0025G)_using_filter_absorption_photometer._These_measurements_are_gathered_as_a_part_of_the_following_projects_NOAA-ESRL,_GAW-WDCA_and_they_are_stored_in_the_EBAS_database_(http://ebas.nilu.no/)._Parameters_measured_are:_aerosol_absorption_coefficient_in_aerosol_(volume_absorption_coefficient_in_air_due_to_dried_aerosol_particles)" .
+
+    ae:time_coverage_duration rdfs:label "time_coverage_duration" ;
+        ae:hasvalue "P0012-00-00T00:00:00" .
+
+    ae:time_coverage_end rdfs:label "time_coverage_end" ;
+        ae:hasvalue "2015-01-01T00:00:00_UTC" .
+
+    ae:time_coverage_resolution rdfs:label "time_coverage_resolution" ;
+        ae:hasvalue "P0000-00-00T01:00:00" .
+
+    ae:time_coverage_start rdfs:label "time_coverage_start" ;
+        ae:hasvalue "2003-01-01T00:00:00_UTC" .
+
+    ae:timezone rdfs:label "timezone" ;
+        ae:hasvalue "UTC" .
+
+    ae:title rdfs:label "title" ;
+        ae:hasvalue "Ground_based_in_situ_observations_of_aerosol_absorption_coefficient_at_Summit_(DK0025G)_using_filter_absorption_photometer" .
+
+    <http://codes.wmo.int/wmdr/ObservedVariableAtmosphere/316> rdfs:label "Component" ;
+        ae:hasvalue "aerosol_absorption_coefficient" .
+
+    <http://codes.wmo.int/wmdr/ObservedVariableAtmosphere/317> rdfs:label "Component" ;
+        ae:hasvalue "aerosol_absorption_coefficient" .
+
+    <http://codes.wmo.int/wmdr/ObservedVariableAtmosphere/318> rdfs:label "Component" ;
+        ae:hasvalue "aerosol_absorption_coefficient" .
+
+    <http://vocab.nerc.ac.uk/collection/P07/current/3TUNI9CM/> rdfs:label "Component" ;
+        ae:hasvalue "aerosol_absorption_coefficient" .
+
+    [] rdfs:label "filter_absorption_photometer" ;
+        ae:measures [ rdfs:label "aerosol_absorption_coefficient" ] .
+}
+
