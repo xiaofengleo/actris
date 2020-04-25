@@ -89,5 +89,12 @@ Besides the results demonstrated in [queries.ipynb](https://github.com/xiaofengl
 *Figure 2: Visualization of the sparql query showing the relation of the "aerosol absorption coefficient" with other terms*
 
 #### Suggested improvements
+There are seveal improvements expected in the near future.
+1. Utlize the [netcdf-ld](https://github.com/binary-array-ld/bald) library to extract the head attributes from the .nc file. An example can be found at https://github.com/ferrighi/netcdf-ld-prototype
+2. Some NLP library or toolkits, like [NLTK](https://www.nltk.org) can be utilized to help the task like finding and extracting entities, relations between entities, etc.
+3. How to build the mapping among ontologies/vocabularies. A reference could be the I-ADOPT project.
+4. More advanced queries is expected to display the content from the RDF triple store.
+5. Complete the GUI.
+
 ![Improvements](https://folk.nilu.no/~richard/envri-fair/improvements.png)
 *Figure 3: Suggested improvements for the demonstrator*
