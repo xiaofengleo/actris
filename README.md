@@ -35,7 +35,7 @@ This use case demonstrates the semantic search feasibility over the ACTRIS datas
 
 #### Description
 
-It was decided to link "aerosol absorption coefficient” in the ACTRIS dataset with the CF standard name “volume_absorption_coefficient_in_air_due_to_dried_aerosol_particles” in the NERC vocabulary, and further link this with "Light absorption coefficient” in the WIGOS vocabulary. In order to do this a Jupyter Notebooks was created for extracting metadata from the NetCDF files which includes both the internal ACTRIS variable name and the CF standard name. The link between these could be found in the metadata attributes of the dataset. 
+It was decided to link "aerosol absorption coefficient” in the [ACTRIS dataset](https://github.com/xiaofengleo/actris/blob/master/DK0025G.20030101000000.20170713083448.filter_absorption_photometer.aerosol_absorption_coefficient.aerosol.12y.1h.US08L_Magee_AE16_SUM.US08L_aethalometer.lev2.nc) with the CF standard name “volume_absorption_coefficient_in_air_due_to_dried_aerosol_particles” in the NERC vocabulary, and further link this with "Light absorption coefficient” in the WIGOS vocabulary. In order to do this a Jupyter Notebooks was created for extracting metadata from the NetCDF files which includes both the internal ACTRIS variable name and the CF standard name. The link between these could be found in the metadata attributes of the dataset. 
 
 **For example**
 > string aerosol_absorption_coefficient_prec1587:standard_name = "volume_absorption_coefficient_in_air_due_to_dried_aerosol_particles" ;
