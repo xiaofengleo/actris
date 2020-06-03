@@ -1,3 +1,4 @@
+('EBAS_VNAME', 'CFNAME', 'MATRIX_NAME')
 ('1-2-3-4-tetrachlorobenzene', 'mass_concentration_of_1234_tetrachlorobenzene_in_dry_aerosol_particles_in _air', 'aerosol')
 ('1-2-3-4-tetrahydronaphthalene', 'mass_concentration_of_1234_tetrahydronaphthalene_in_dry_aerosol_particles_in _air', 'aerosol')
 ('1-2-3-trichlorobenzene', 'mass_concentration_of_123_trichlorobenzene_in_dry_aerosol_particles_in _air', 'aerosol')
